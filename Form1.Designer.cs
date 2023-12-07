@@ -29,12 +29,12 @@ namespace Паспорт_форм
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.aboutFK = new System.Windows.Forms.Panel();
             this.provider = new System.Windows.Forms.TextBox();
             this.assortment = new System.Windows.Forms.TextBox();
@@ -43,16 +43,19 @@ namespace Паспорт_форм
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox13 = new System.Windows.Forms.TextBox();
             this.clearDPF = new System.Windows.Forms.TextBox();
             this.blackDPF = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.invert = new System.Windows.Forms.TextBox();
             this.clearSGDPF = new System.Windows.Forms.TextBox();
             this.blackSGDPF = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.inActNum = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.inActDate = new System.Windows.Forms.TextBox();
@@ -66,17 +69,32 @@ namespace Паспорт_форм
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.factVmest = new System.Windows.Forms.TextBox();
+            this.setVmetim = new System.Windows.Forms.TextBox();
+            this.valueActual = new System.Windows.Forms.TextBox();
+            this.valueBlack = new System.Windows.Forms.TextBox();
+            this.hodMax = new System.Windows.Forms.TextBox();
+            this.hodMin = new System.Windows.Forms.TextBox();
+            this.hodSum = new System.Windows.Forms.TextBox();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.workWeight = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.balanceResource = new System.Windows.Forms.TextBox();
+            this.workedResource = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.inActNum = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.invert = new System.Windows.Forms.TextBox();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -86,29 +104,11 @@ namespace Паспорт_форм
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.workedResource = new System.Windows.Forms.TextBox();
-            this.balanceResource = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.workWeight = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.hodSum = new System.Windows.Forms.TextBox();
-            this.hodMin = new System.Windows.Forms.TextBox();
-            this.hodMax = new System.Windows.Forms.TextBox();
-            this.valueBlack = new System.Windows.Forms.TextBox();
-            this.valueActual = new System.Windows.Forms.TextBox();
-            this.setVmetim = new System.Windows.Forms.TextBox();
-            this.factVmest = new System.Windows.Forms.TextBox();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.aboutFK.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -231,6 +231,21 @@ namespace Паспорт_форм
             this.panel1.Size = new System.Drawing.Size(219, 136);
             this.panel1.TabIndex = 1;
             // 
+            // textBox13
+            // 
+            this.textBox13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox13.BackColor = System.Drawing.Color.Khaki;
+            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox13.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox13.Location = new System.Drawing.Point(-2, 109);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.ReadOnly = true;
+            this.textBox13.Size = new System.Drawing.Size(220, 26);
+            this.textBox13.TabIndex = 5;
+            this.textBox13.Text = "ИНВЕРТ";
+            this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // clearDPF
             // 
             this.clearDPF.BackColor = System.Drawing.Color.SkyBlue;
@@ -307,6 +322,23 @@ namespace Паспорт_форм
             this.panel2.Size = new System.Drawing.Size(240, 136);
             this.panel2.TabIndex = 4;
             // 
+            // invert
+            // 
+            this.invert.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.invert.BackColor = System.Drawing.Color.Khaki;
+            this.invert.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.invert.Enabled = false;
+            this.invert.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.invert.Location = new System.Drawing.Point(-2, 109);
+            this.invert.Name = "invert";
+            this.invert.Size = new System.Drawing.Size(241, 26);
+            this.invert.TabIndex = 4;
+            this.invert.Tag = "edit";
+            this.invert.Text = "75";
+            this.invert.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.invert.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
+            // 
             // clearSGDPF
             // 
             this.clearSGDPF.BackColor = System.Drawing.Color.SkyBlue;
@@ -378,6 +410,21 @@ namespace Паспорт_форм
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(219, 60);
             this.panel3.TabIndex = 4;
+            // 
+            // inActNum
+            // 
+            this.inActNum.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.inActNum.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.inActNum.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.inActNum.Enabled = false;
+            this.inActNum.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.inActNum.Location = new System.Drawing.Point(17, 31);
+            this.inActNum.Name = "inActNum";
+            this.inActNum.Size = new System.Drawing.Size(180, 19);
+            this.inActNum.TabIndex = 3;
+            this.inActNum.Tag = "edit";
+            this.inActNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox8
             // 
@@ -468,14 +515,14 @@ namespace Паспорт_форм
             this.compositionFK.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.compositionFK.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.compositionFK.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.compositionFK.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.compositionFK.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.compositionFK.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.compositionFK.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -487,8 +534,8 @@ namespace Паспорт_форм
             this.compositionFK.Name = "compositionFK";
             this.compositionFK.ReadOnly = true;
             this.compositionFK.RowHeadersVisible = false;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.compositionFK.RowsDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.compositionFK.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.compositionFK.Size = new System.Drawing.Size(470, 418);
             this.compositionFK.TabIndex = 3;
             this.compositionFK.Tag = "edit";
@@ -559,6 +606,325 @@ namespace Паспорт_форм
             this.panel6.Size = new System.Drawing.Size(923, 140);
             this.panel6.TabIndex = 2;
             // 
+            // factVmest
+            // 
+            this.factVmest.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.factVmest.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.factVmest.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.factVmest.Location = new System.Drawing.Point(774, 104);
+            this.factVmest.Name = "factVmest";
+            this.factVmest.ReadOnly = true;
+            this.factVmest.Size = new System.Drawing.Size(144, 26);
+            this.factVmest.TabIndex = 35;
+            this.factVmest.Tag = "edit";
+            this.factVmest.Text = "134,4";
+            this.factVmest.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.factVmest.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
+            // 
+            // setVmetim
+            // 
+            this.setVmetim.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.setVmetim.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.setVmetim.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.setVmetim.Location = new System.Drawing.Point(774, 79);
+            this.setVmetim.Name = "setVmetim";
+            this.setVmetim.ReadOnly = true;
+            this.setVmetim.Size = new System.Drawing.Size(144, 26);
+            this.setVmetim.TabIndex = 34;
+            this.setVmetim.Tag = "edit";
+            this.setVmetim.Text = "134,4";
+            this.setVmetim.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.setVmetim.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
+            // 
+            // valueActual
+            // 
+            this.valueActual.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.valueActual.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.valueActual.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.valueActual.Location = new System.Drawing.Point(363, 104);
+            this.valueActual.Name = "valueActual";
+            this.valueActual.ReadOnly = true;
+            this.valueActual.Size = new System.Drawing.Size(117, 26);
+            this.valueActual.TabIndex = 33;
+            this.valueActual.Tag = "edit";
+            this.valueActual.Text = "134,4";
+            this.valueActual.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.valueActual.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
+            // 
+            // valueBlack
+            // 
+            this.valueBlack.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.valueBlack.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.valueBlack.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.valueBlack.Location = new System.Drawing.Point(363, 79);
+            this.valueBlack.Name = "valueBlack";
+            this.valueBlack.ReadOnly = true;
+            this.valueBlack.Size = new System.Drawing.Size(117, 26);
+            this.valueBlack.TabIndex = 32;
+            this.valueBlack.Tag = "edit";
+            this.valueBlack.Text = "134,4";
+            this.valueBlack.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.valueBlack.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
+            // 
+            // hodMax
+            // 
+            this.hodMax.BackColor = System.Drawing.Color.PaleGreen;
+            this.hodMax.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hodMax.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.hodMax.Location = new System.Drawing.Point(774, 54);
+            this.hodMax.Name = "hodMax";
+            this.hodMax.Size = new System.Drawing.Size(144, 26);
+            this.hodMax.TabIndex = 30;
+            this.hodMax.Tag = "edit";
+            this.hodMax.Text = "4,8";
+            this.hodMax.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.hodMax.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
+            // 
+            // hodMin
+            // 
+            this.hodMin.BackColor = System.Drawing.Color.PaleGreen;
+            this.hodMin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hodMin.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.hodMin.Location = new System.Drawing.Point(630, 54);
+            this.hodMin.Name = "hodMin";
+            this.hodMin.Size = new System.Drawing.Size(145, 26);
+            this.hodMin.TabIndex = 29;
+            this.hodMin.Tag = "edit";
+            this.hodMin.Text = "4,8";
+            this.hodMin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.hodMin.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
+            // 
+            // hodSum
+            // 
+            this.hodSum.BackColor = System.Drawing.Color.PaleGreen;
+            this.hodSum.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hodSum.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.hodSum.Location = new System.Drawing.Point(486, 54);
+            this.hodSum.Name = "hodSum";
+            this.hodSum.Size = new System.Drawing.Size(145, 26);
+            this.hodSum.TabIndex = 28;
+            this.hodSum.Tag = "edit";
+            this.hodSum.Text = "4,8";
+            this.hodSum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.hodSum.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
+            // 
+            // textBox24
+            // 
+            this.textBox24.BackColor = System.Drawing.Color.PaleGreen;
+            this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox24.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox24.Location = new System.Drawing.Point(363, 54);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(117, 26);
+            this.textBox24.TabIndex = 27;
+            this.textBox24.Tag = "edit";
+            this.textBox24.Text = "4,8";
+            this.textBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox24.TextChanged += new System.EventHandler(this.textBox24_TextChanged);
+            this.textBox24.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
+            // 
+            // textBox23
+            // 
+            this.textBox23.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox23.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox23.Location = new System.Drawing.Point(5, 79);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.ReadOnly = true;
+            this.textBox23.Size = new System.Drawing.Size(359, 26);
+            this.textBox23.TabIndex = 25;
+            this.textBox23.Text = "Объем черновой формы по КД";
+            this.textBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox23.TextChanged += new System.EventHandler(this.textBox23_TextChanged);
+            // 
+            // textBox22
+            // 
+            this.textBox22.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox22.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox22.Location = new System.Drawing.Point(5, 104);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.ReadOnly = true;
+            this.textBox22.Size = new System.Drawing.Size(359, 26);
+            this.textBox22.TabIndex = 24;
+            this.textBox22.Text = "Актуальный объем черн. +/- 0,25";
+            this.textBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox22.TextChanged += new System.EventHandler(this.textBox22_TextChanged);
+            // 
+            // textBox21
+            // 
+            this.textBox21.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox21.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox21.Location = new System.Drawing.Point(486, 104);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.ReadOnly = true;
+            this.textBox21.Size = new System.Drawing.Size(289, 26);
+            this.textBox21.TabIndex = 23;
+            this.textBox21.Text = "Фактическая вместимость по уровню";
+            this.textBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox17
+            // 
+            this.textBox17.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox17.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox17.Location = new System.Drawing.Point(486, 79);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.ReadOnly = true;
+            this.textBox17.Size = new System.Drawing.Size(289, 26);
+            this.textBox17.TabIndex = 22;
+            this.textBox17.Text = "Заданная вместимость";
+            this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox17.TextChanged += new System.EventHandler(this.textBox17_TextChanged);
+            // 
+            // textBox20
+            // 
+            this.textBox20.BackColor = System.Drawing.Color.PaleGreen;
+            this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox20.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox20.Location = new System.Drawing.Point(486, 29);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.ReadOnly = true;
+            this.textBox20.Size = new System.Drawing.Size(145, 26);
+            this.textBox20.TabIndex = 20;
+            this.textBox20.Text = "ХОД ОБЩ";
+            this.textBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox19
+            // 
+            this.textBox19.BackColor = System.Drawing.Color.PaleGreen;
+            this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox19.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox19.Location = new System.Drawing.Point(774, 29);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.ReadOnly = true;
+            this.textBox19.Size = new System.Drawing.Size(144, 26);
+            this.textBox19.TabIndex = 19;
+            this.textBox19.Text = "ХОД МАКС";
+            this.textBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox18
+            // 
+            this.textBox18.BackColor = System.Drawing.Color.PaleGreen;
+            this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox18.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox18.Location = new System.Drawing.Point(630, 29);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.ReadOnly = true;
+            this.textBox18.Size = new System.Drawing.Size(145, 26);
+            this.textBox18.TabIndex = 18;
+            this.textBox18.Text = "ХОД МИН";
+            this.textBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // workWeight
+            // 
+            this.workWeight.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.workWeight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.workWeight.Enabled = false;
+            this.workWeight.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.workWeight.Location = new System.Drawing.Point(774, 4);
+            this.workWeight.Name = "workWeight";
+            this.workWeight.ReadOnly = true;
+            this.workWeight.Size = new System.Drawing.Size(144, 26);
+            this.workWeight.TabIndex = 16;
+            this.workWeight.Text = "275";
+            this.workWeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox15
+            // 
+            this.textBox15.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox15.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox15.Location = new System.Drawing.Point(486, 4);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.ReadOnly = true;
+            this.textBox15.Size = new System.Drawing.Size(289, 26);
+            this.textBox15.TabIndex = 15;
+            this.textBox15.Text = "Рабочий вес изделия";
+            this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox10
+            // 
+            this.textBox10.BackColor = System.Drawing.Color.PaleGreen;
+            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox10.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox10.Location = new System.Drawing.Point(245, 54);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.ReadOnly = true;
+            this.textBox10.Size = new System.Drawing.Size(119, 26);
+            this.textBox10.TabIndex = 14;
+            this.textBox10.Text = "ЗАГЛ";
+            this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.Color.PaleGreen;
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox4.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox4.Location = new System.Drawing.Point(5, 54);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
+            this.textBox4.Size = new System.Drawing.Size(241, 26);
+            this.textBox4.TabIndex = 13;
+            this.textBox4.Text = "Параметры ПЛУНЖ";
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            // 
+            // balanceResource
+            // 
+            this.balanceResource.BackColor = System.Drawing.Color.DodgerBlue;
+            this.balanceResource.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.balanceResource.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.balanceResource.Location = new System.Drawing.Point(245, 29);
+            this.balanceResource.Name = "balanceResource";
+            this.balanceResource.ReadOnly = true;
+            this.balanceResource.Size = new System.Drawing.Size(235, 26);
+            this.balanceResource.TabIndex = 12;
+            this.balanceResource.Text = "1 000 000";
+            this.balanceResource.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // workedResource
+            // 
+            this.workedResource.BackColor = System.Drawing.Color.SkyBlue;
+            this.workedResource.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.workedResource.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.workedResource.Location = new System.Drawing.Point(245, 4);
+            this.workedResource.Name = "workedResource";
+            this.workedResource.ReadOnly = true;
+            this.workedResource.Size = new System.Drawing.Size(235, 26);
+            this.workedResource.TabIndex = 11;
+            this.workedResource.Text = "50";
+            this.workedResource.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox14
+            // 
+            this.textBox14.BackColor = System.Drawing.Color.DodgerBlue;
+            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox14.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox14.Location = new System.Drawing.Point(5, 29);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.ReadOnly = true;
+            this.textBox14.Size = new System.Drawing.Size(241, 26);
+            this.textBox14.TabIndex = 10;
+            this.textBox14.Text = "Остаточный  ресурс годных, шт. ";
+            this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox14.TextChanged += new System.EventHandler(this.textBox14_TextChanged_1);
+            // 
+            // textBox9
+            // 
+            this.textBox9.BackColor = System.Drawing.Color.SkyBlue;
+            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox9.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox9.Location = new System.Drawing.Point(5, 4);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.ReadOnly = true;
+            this.textBox9.Size = new System.Drawing.Size(241, 26);
+            this.textBox9.TabIndex = 8;
+            this.textBox9.Text = "Отработанный ресурс , %";
+            this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
+            // 
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -590,14 +956,14 @@ namespace Паспорт_форм
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -613,125 +979,11 @@ namespace Паспорт_форм
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView1.Size = new System.Drawing.Size(924, 316);
             this.dataGridView1.TabIndex = 3;
             this.dataGridView1.Tag = "edit";
-            // 
-            // panel9
-            // 
-            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel9.Controls.Add(this.textBox12);
-            this.panel9.Controls.Add(this.dataGridView2);
-            this.panel9.Location = new System.Drawing.Point(491, 521);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(923, 285);
-            this.panel9.TabIndex = 8;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox12.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox12.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox12.Location = new System.Drawing.Point(-2, -1);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.ReadOnly = true;
-            this.textBox12.Size = new System.Drawing.Size(924, 26);
-            this.textBox12.TabIndex = 2;
-            this.textBox12.Text = "История ФК за период постановки (доработки , эксперименты)";
-            this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.AllowUserToAddRows = false;
-            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn7});
-            this.dataGridView2.Location = new System.Drawing.Point(-2, 24);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.ReadOnly = true;
-            this.dataGridView2.RowHeadersVisible = false;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle12;
-            this.dataGridView2.Size = new System.Drawing.Size(924, 260);
-            this.dataGridView2.TabIndex = 3;
-            this.dataGridView2.Tag = "edit";
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.FillWeight = 85.09274F;
-            this.dataGridViewTextBoxColumn6.HeaderText = "Дата";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.FillWeight = 250.1726F;
-            this.dataGridViewTextBoxColumn7.HeaderText = "Наименование проводимых работ";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            // 
-            // inActNum
-            // 
-            this.inActNum.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.inActNum.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.inActNum.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.inActNum.Enabled = false;
-            this.inActNum.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.inActNum.Location = new System.Drawing.Point(17, 31);
-            this.inActNum.Name = "inActNum";
-            this.inActNum.Size = new System.Drawing.Size(180, 19);
-            this.inActNum.TabIndex = 3;
-            this.inActNum.Tag = "edit";
-            this.inActNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox13.BackColor = System.Drawing.Color.Khaki;
-            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox13.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox13.Location = new System.Drawing.Point(-2, 109);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.ReadOnly = true;
-            this.textBox13.Size = new System.Drawing.Size(220, 26);
-            this.textBox13.TabIndex = 5;
-            this.textBox13.Text = "ИНВЕРТ";
-            this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // invert
-            // 
-            this.invert.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.invert.BackColor = System.Drawing.Color.Khaki;
-            this.invert.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.invert.Enabled = false;
-            this.invert.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.invert.Location = new System.Drawing.Point(-2, 109);
-            this.invert.Name = "invert";
-            this.invert.Size = new System.Drawing.Size(241, 26);
-            this.invert.TabIndex = 4;
-            this.invert.Tag = "edit";
-            this.invert.Text = "75";
-            this.invert.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.invert.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -794,324 +1046,72 @@ namespace Паспорт_форм
             this.Column9.Name = "Column9";
             this.Column9.ReadOnly = true;
             // 
-            // textBox9
+            // panel9
             // 
-            this.textBox9.BackColor = System.Drawing.Color.SkyBlue;
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox9.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox9.Location = new System.Drawing.Point(5, 4);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.ReadOnly = true;
-            this.textBox9.Size = new System.Drawing.Size(241, 26);
-            this.textBox9.TabIndex = 8;
-            this.textBox9.Text = "Отработанный ресурс , %";
-            this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
+            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel9.Controls.Add(this.textBox12);
+            this.panel9.Controls.Add(this.dataGridView2);
+            this.panel9.Location = new System.Drawing.Point(491, 521);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(923, 285);
+            this.panel9.TabIndex = 8;
             // 
-            // textBox14
+            // textBox12
             // 
-            this.textBox14.BackColor = System.Drawing.Color.DodgerBlue;
-            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox14.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox14.Location = new System.Drawing.Point(5, 29);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.ReadOnly = true;
-            this.textBox14.Size = new System.Drawing.Size(241, 26);
-            this.textBox14.TabIndex = 10;
-            this.textBox14.Text = "Остаточный  ресурс годных, шт. ";
-            this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox14.TextChanged += new System.EventHandler(this.textBox14_TextChanged_1);
+            this.textBox12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox12.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox12.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox12.Location = new System.Drawing.Point(-2, -1);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.ReadOnly = true;
+            this.textBox12.Size = new System.Drawing.Size(924, 26);
+            this.textBox12.TabIndex = 2;
+            this.textBox12.Text = "История ФК за период постановки (доработки , эксперименты)";
+            this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // workedResource
+            // dataGridView2
             // 
-            this.workedResource.BackColor = System.Drawing.Color.SkyBlue;
-            this.workedResource.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.workedResource.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.workedResource.Location = new System.Drawing.Point(245, 4);
-            this.workedResource.Name = "workedResource";
-            this.workedResource.ReadOnly = true;
-            this.workedResource.Size = new System.Drawing.Size(235, 26);
-            this.workedResource.TabIndex = 11;
-            this.workedResource.Text = "50";
-            this.workedResource.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.dataGridView2.AllowUserToAddRows = false;
+            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7});
+            this.dataGridView2.Location = new System.Drawing.Point(-2, 24);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.ReadOnly = true;
+            this.dataGridView2.RowHeadersVisible = false;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            this.dataGridView2.Size = new System.Drawing.Size(924, 260);
+            this.dataGridView2.TabIndex = 3;
+            this.dataGridView2.Tag = "edit";
             // 
-            // balanceResource
+            // dataGridViewTextBoxColumn6
             // 
-            this.balanceResource.BackColor = System.Drawing.Color.DodgerBlue;
-            this.balanceResource.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.balanceResource.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.balanceResource.Location = new System.Drawing.Point(245, 29);
-            this.balanceResource.Name = "balanceResource";
-            this.balanceResource.ReadOnly = true;
-            this.balanceResource.Size = new System.Drawing.Size(235, 26);
-            this.balanceResource.TabIndex = 12;
-            this.balanceResource.Text = "1 000 000";
-            this.balanceResource.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.dataGridViewTextBoxColumn6.FillWeight = 85.09274F;
+            this.dataGridViewTextBoxColumn6.HeaderText = "Дата";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
             // 
-            // textBox4
+            // dataGridViewTextBoxColumn7
             // 
-            this.textBox4.BackColor = System.Drawing.Color.PaleGreen;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox4.Location = new System.Drawing.Point(5, 54);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(241, 26);
-            this.textBox4.TabIndex = 13;
-            this.textBox4.Text = "Параметры ПЛУНЖ";
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
-            // 
-            // textBox10
-            // 
-            this.textBox10.BackColor = System.Drawing.Color.PaleGreen;
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox10.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox10.Location = new System.Drawing.Point(245, 54);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.ReadOnly = true;
-            this.textBox10.Size = new System.Drawing.Size(119, 26);
-            this.textBox10.TabIndex = 14;
-            this.textBox10.Text = "ЗАГЛ";
-            this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox15
-            // 
-            this.textBox15.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox15.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox15.Location = new System.Drawing.Point(486, 4);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.ReadOnly = true;
-            this.textBox15.Size = new System.Drawing.Size(289, 26);
-            this.textBox15.TabIndex = 15;
-            this.textBox15.Text = "Рабочий вес изделия";
-            this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // workWeight
-            // 
-            this.workWeight.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.workWeight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.workWeight.Enabled = false;
-            this.workWeight.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.workWeight.Location = new System.Drawing.Point(774, 4);
-            this.workWeight.Name = "workWeight";
-            this.workWeight.ReadOnly = true;
-            this.workWeight.Size = new System.Drawing.Size(144, 26);
-            this.workWeight.TabIndex = 16;
-            this.workWeight.Text = "275";
-            this.workWeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox18
-            // 
-            this.textBox18.BackColor = System.Drawing.Color.PaleGreen;
-            this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox18.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox18.Location = new System.Drawing.Point(630, 29);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.ReadOnly = true;
-            this.textBox18.Size = new System.Drawing.Size(145, 26);
-            this.textBox18.TabIndex = 18;
-            this.textBox18.Text = "ХОД МИН";
-            this.textBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox19
-            // 
-            this.textBox19.BackColor = System.Drawing.Color.PaleGreen;
-            this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox19.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox19.Location = new System.Drawing.Point(774, 29);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.ReadOnly = true;
-            this.textBox19.Size = new System.Drawing.Size(144, 26);
-            this.textBox19.TabIndex = 19;
-            this.textBox19.Text = "ХОД МАКС";
-            this.textBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox20
-            // 
-            this.textBox20.BackColor = System.Drawing.Color.PaleGreen;
-            this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox20.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox20.Location = new System.Drawing.Point(486, 29);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.ReadOnly = true;
-            this.textBox20.Size = new System.Drawing.Size(145, 26);
-            this.textBox20.TabIndex = 20;
-            this.textBox20.Text = "ХОД ОБЩ";
-            this.textBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox17
-            // 
-            this.textBox17.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox17.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox17.Location = new System.Drawing.Point(486, 79);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.ReadOnly = true;
-            this.textBox17.Size = new System.Drawing.Size(289, 26);
-            this.textBox17.TabIndex = 22;
-            this.textBox17.Text = "Заданная вместимость";
-            this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox17.TextChanged += new System.EventHandler(this.textBox17_TextChanged);
-            // 
-            // textBox21
-            // 
-            this.textBox21.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox21.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox21.Location = new System.Drawing.Point(486, 104);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.ReadOnly = true;
-            this.textBox21.Size = new System.Drawing.Size(289, 26);
-            this.textBox21.TabIndex = 23;
-            this.textBox21.Text = "Фактическая вместимость по уровню";
-            this.textBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox22
-            // 
-            this.textBox22.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox22.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox22.Location = new System.Drawing.Point(5, 104);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.ReadOnly = true;
-            this.textBox22.Size = new System.Drawing.Size(359, 26);
-            this.textBox22.TabIndex = 24;
-            this.textBox22.Text = "Актуальный объем черн. +/- 0,25";
-            this.textBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox22.TextChanged += new System.EventHandler(this.textBox22_TextChanged);
-            // 
-            // textBox23
-            // 
-            this.textBox23.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox23.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox23.Location = new System.Drawing.Point(5, 79);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.ReadOnly = true;
-            this.textBox23.Size = new System.Drawing.Size(359, 26);
-            this.textBox23.TabIndex = 25;
-            this.textBox23.Text = "Объем черновой формы по КД";
-            this.textBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox23.TextChanged += new System.EventHandler(this.textBox23_TextChanged);
-            // 
-            // textBox24
-            // 
-            this.textBox24.BackColor = System.Drawing.Color.PaleGreen;
-            this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox24.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox24.Location = new System.Drawing.Point(363, 54);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(117, 26);
-            this.textBox24.TabIndex = 27;
-            this.textBox24.Tag = "edit";
-            this.textBox24.Text = "4,8";
-            this.textBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox24.TextChanged += new System.EventHandler(this.textBox24_TextChanged);
-            this.textBox24.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
-            // 
-            // hodSum
-            // 
-            this.hodSum.BackColor = System.Drawing.Color.PaleGreen;
-            this.hodSum.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.hodSum.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.hodSum.Location = new System.Drawing.Point(486, 54);
-            this.hodSum.Name = "hodSum";
-            this.hodSum.Size = new System.Drawing.Size(145, 26);
-            this.hodSum.TabIndex = 28;
-            this.hodSum.Tag = "edit";
-            this.hodSum.Text = "4,8";
-            this.hodSum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.hodSum.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
-            // 
-            // hodMin
-            // 
-            this.hodMin.BackColor = System.Drawing.Color.PaleGreen;
-            this.hodMin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.hodMin.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.hodMin.Location = new System.Drawing.Point(630, 54);
-            this.hodMin.Name = "hodMin";
-            this.hodMin.Size = new System.Drawing.Size(145, 26);
-            this.hodMin.TabIndex = 29;
-            this.hodMin.Tag = "edit";
-            this.hodMin.Text = "4,8";
-            this.hodMin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.hodMin.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
-            // 
-            // hodMax
-            // 
-            this.hodMax.BackColor = System.Drawing.Color.PaleGreen;
-            this.hodMax.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.hodMax.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.hodMax.Location = new System.Drawing.Point(774, 54);
-            this.hodMax.Name = "hodMax";
-            this.hodMax.Size = new System.Drawing.Size(144, 26);
-            this.hodMax.TabIndex = 30;
-            this.hodMax.Tag = "edit";
-            this.hodMax.Text = "4,8";
-            this.hodMax.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.hodMax.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
-            // 
-            // valueBlack
-            // 
-            this.valueBlack.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.valueBlack.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.valueBlack.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.valueBlack.Location = new System.Drawing.Point(363, 79);
-            this.valueBlack.Name = "valueBlack";
-            this.valueBlack.ReadOnly = true;
-            this.valueBlack.Size = new System.Drawing.Size(117, 26);
-            this.valueBlack.TabIndex = 32;
-            this.valueBlack.Tag = "edit";
-            this.valueBlack.Text = "134,4";
-            this.valueBlack.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.valueBlack.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
-            // 
-            // valueActual
-            // 
-            this.valueActual.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.valueActual.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.valueActual.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.valueActual.Location = new System.Drawing.Point(363, 104);
-            this.valueActual.Name = "valueActual";
-            this.valueActual.ReadOnly = true;
-            this.valueActual.Size = new System.Drawing.Size(117, 26);
-            this.valueActual.TabIndex = 33;
-            this.valueActual.Tag = "edit";
-            this.valueActual.Text = "134,4";
-            this.valueActual.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.valueActual.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
-            // 
-            // setVmetim
-            // 
-            this.setVmetim.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.setVmetim.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.setVmetim.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.setVmetim.Location = new System.Drawing.Point(774, 79);
-            this.setVmetim.Name = "setVmetim";
-            this.setVmetim.ReadOnly = true;
-            this.setVmetim.Size = new System.Drawing.Size(144, 26);
-            this.setVmetim.TabIndex = 34;
-            this.setVmetim.Tag = "edit";
-            this.setVmetim.Text = "134,4";
-            this.setVmetim.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.setVmetim.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
-            // 
-            // factVmest
-            // 
-            this.factVmest.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.factVmest.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.factVmest.Font = new System.Drawing.Font("Roboto Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.factVmest.Location = new System.Drawing.Point(774, 104);
-            this.factVmest.Name = "factVmest";
-            this.factVmest.ReadOnly = true;
-            this.factVmest.Size = new System.Drawing.Size(144, 26);
-            this.factVmest.TabIndex = 35;
-            this.factVmest.Tag = "edit";
-            this.factVmest.Text = "134,4";
-            this.factVmest.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.factVmest.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
+            this.dataGridViewTextBoxColumn7.FillWeight = 250.1726F;
+            this.dataGridViewTextBoxColumn7.HeaderText = "Наименование проводимых работ";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
             // 
             // Form1
             // 

@@ -29,12 +29,12 @@ namespace Паспорт_форм
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.aboutFK = new System.Windows.Forms.Panel();
             this.provider = new System.Windows.Forms.TextBox();
             this.assortment = new System.Windows.Forms.TextBox();
@@ -105,8 +105,9 @@ namespace Паспорт_форм
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.textBox12 = new System.Windows.Forms.TextBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.historyFK = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.aboutFK.SuspendLayout();
@@ -120,7 +121,7 @@ namespace Паспорт_форм
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.historyFK)).BeginInit();
             this.SuspendLayout();
             // 
             // aboutFK
@@ -193,7 +194,6 @@ namespace Паспорт_форм
             this.label3.Size = new System.Drawing.Size(79, 18);
             this.label3.TabIndex = 0;
             this.label3.Text = "Поставщик";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -205,7 +205,6 @@ namespace Паспорт_форм
             this.label2.Size = new System.Drawing.Size(216, 18);
             this.label2.TabIndex = 0;
             this.label2.Text = "Наименование формокомплекта";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -216,7 +215,6 @@ namespace Паспорт_форм
             this.label1.Size = new System.Drawing.Size(70, 18);
             this.label1.TabIndex = 0;
             this.label1.Text = "Номер ФК";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel1
             // 
@@ -274,7 +272,6 @@ namespace Паспорт_форм
             this.blackDPF.Tag = "edit";
             this.blackDPF.Text = "12";
             this.blackDPF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.blackDPF.TextChanged += new System.EventHandler(this.blackDPF_TextChanged);
             this.blackDPF.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
             // 
             // textBox3
@@ -291,7 +288,6 @@ namespace Паспорт_форм
             this.textBox3.TabIndex = 2;
             this.textBox3.Text = "Держатель чистовых форм  DKF";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox1
             // 
@@ -307,7 +303,6 @@ namespace Паспорт_форм
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "Держатель черновых форм  DPF";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // panel2
             // 
@@ -383,7 +378,6 @@ namespace Паспорт_форм
             this.textBox5.TabIndex = 2;
             this.textBox5.Text = "Cборка губок чистовых форм SG DPF";
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textBox6
             // 
@@ -399,7 +393,6 @@ namespace Паспорт_форм
             this.textBox6.TabIndex = 2;
             this.textBox6.Text = "Cборка губок черновых форм SG DPF";
             this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // panel3
             // 
@@ -440,7 +433,6 @@ namespace Паспорт_форм
             this.textBox8.TabIndex = 2;
             this.textBox8.Text = "Номер акта вх. контроля";
             this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox8.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
             // 
             // panel4
             // 
@@ -481,7 +473,6 @@ namespace Паспорт_форм
             this.textBox2.TabIndex = 2;
             this.textBox2.Text = "Дата вх. контроля";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // panel5
             // 
@@ -507,7 +498,6 @@ namespace Паспорт_форм
             this.textBox7.TabIndex = 2;
             this.textBox7.Text = "Состав ФК";
             this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // compositionFK
             // 
@@ -515,14 +505,14 @@ namespace Паспорт_форм
             this.compositionFK.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.compositionFK.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.compositionFK.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.compositionFK.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.compositionFK.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.compositionFK.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.compositionFK.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -534,8 +524,8 @@ namespace Паспорт_форм
             this.compositionFK.Name = "compositionFK";
             this.compositionFK.ReadOnly = true;
             this.compositionFK.RowHeadersVisible = false;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.compositionFK.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.compositionFK.RowsDefaultCellStyle = dataGridViewCellStyle8;
             this.compositionFK.Size = new System.Drawing.Size(470, 418);
             this.compositionFK.TabIndex = 3;
             this.compositionFK.Tag = "edit";
@@ -720,7 +710,6 @@ namespace Паспорт_форм
             this.textBox24.Tag = "edit";
             this.textBox24.Text = "4,8";
             this.textBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox24.TextChanged += new System.EventHandler(this.textBox24_TextChanged);
             this.textBox24.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
             // 
             // textBox23
@@ -735,7 +724,6 @@ namespace Паспорт_форм
             this.textBox23.TabIndex = 25;
             this.textBox23.Text = "Объем черновой формы по КД";
             this.textBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox23.TextChanged += new System.EventHandler(this.textBox23_TextChanged);
             // 
             // textBox22
             // 
@@ -749,7 +737,6 @@ namespace Паспорт_форм
             this.textBox22.TabIndex = 24;
             this.textBox22.Text = "Актуальный объем черн. +/- 0,25";
             this.textBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox22.TextChanged += new System.EventHandler(this.textBox22_TextChanged);
             // 
             // textBox21
             // 
@@ -776,7 +763,6 @@ namespace Паспорт_форм
             this.textBox17.TabIndex = 22;
             this.textBox17.Text = "Заданная вместимость";
             this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox17.TextChanged += new System.EventHandler(this.textBox17_TextChanged);
             // 
             // textBox20
             // 
@@ -869,7 +855,6 @@ namespace Паспорт_форм
             this.textBox4.TabIndex = 13;
             this.textBox4.Text = "Параметры ПЛУНЖ";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // balanceResource
             // 
@@ -909,7 +894,6 @@ namespace Паспорт_форм
             this.textBox14.TabIndex = 10;
             this.textBox14.Text = "Остаточный  ресурс годных, шт. ";
             this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox14.TextChanged += new System.EventHandler(this.textBox14_TextChanged_1);
             // 
             // textBox9
             // 
@@ -923,7 +907,6 @@ namespace Паспорт_форм
             this.textBox9.TabIndex = 8;
             this.textBox9.Text = "Отработанный ресурс , %";
             this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
             // 
             // panel8
             // 
@@ -956,14 +939,14 @@ namespace Паспорт_форм
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -979,8 +962,8 @@ namespace Паспорт_форм
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridView1.Size = new System.Drawing.Size(924, 316);
             this.dataGridView1.TabIndex = 3;
             this.dataGridView1.Tag = "edit";
@@ -1049,12 +1032,25 @@ namespace Паспорт_форм
             // panel9
             // 
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel9.Controls.Add(this.button1);
             this.panel9.Controls.Add(this.textBox12);
-            this.panel9.Controls.Add(this.dataGridView2);
+            this.panel9.Controls.Add(this.historyFK);
             this.panel9.Location = new System.Drawing.Point(491, 521);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(923, 285);
             this.panel9.TabIndex = 8;
+            // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Roboto Condensed", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(843, 1);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 20);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Добавить";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox12
             // 
@@ -1071,33 +1067,33 @@ namespace Паспорт_форм
             this.textBox12.Text = "История ФК за период постановки (доработки , эксперименты)";
             this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // dataGridView2
+            // historyFK
             // 
-            this.dataGridView2.AllowUserToAddRows = false;
-            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.historyFK.AllowUserToAddRows = false;
+            this.historyFK.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.historyFK.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.historyFK.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.historyFK.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            this.historyFK.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.historyFK.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn6,
             this.dataGridViewTextBoxColumn7});
-            this.dataGridView2.Location = new System.Drawing.Point(-2, 24);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.ReadOnly = true;
-            this.dataGridView2.RowHeadersVisible = false;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle6;
-            this.dataGridView2.Size = new System.Drawing.Size(924, 260);
-            this.dataGridView2.TabIndex = 3;
-            this.dataGridView2.Tag = "edit";
+            this.historyFK.Location = new System.Drawing.Point(-2, 24);
+            this.historyFK.Name = "historyFK";
+            this.historyFK.ReadOnly = true;
+            this.historyFK.RowHeadersVisible = false;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.historyFK.RowsDefaultCellStyle = dataGridViewCellStyle12;
+            this.historyFK.Size = new System.Drawing.Size(924, 260);
+            this.historyFK.TabIndex = 3;
+            this.historyFK.Tag = "edit";
             // 
             // dataGridViewTextBoxColumn6
             // 
@@ -1128,6 +1124,7 @@ namespace Паспорт_форм
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.aboutFK);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.aboutFK.ResumeLayout(false);
             this.aboutFK.PerformLayout();
@@ -1149,7 +1146,7 @@ namespace Паспорт_форм
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.historyFK)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1192,7 +1189,6 @@ namespace Паспорт_форм
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
         private System.Windows.Forms.TextBox textBox13;
@@ -1230,6 +1226,8 @@ namespace Паспорт_форм
         private System.Windows.Forms.TextBox setVmetim;
         private System.Windows.Forms.TextBox valueActual;
         private System.Windows.Forms.TextBox valueBlack;
+        private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.DataGridView historyFK;
     }
 }
 
